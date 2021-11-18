@@ -9,6 +9,6 @@ export function calcAreaTriangle(width: number, height: number): number {
 export function calcAreaTrapezium(length: number , width: number, height: number): number{
     return (length+width)*0.5*height ;
 }
-export function tan( angle: number): number{
-    return Math.tan(angle);
+export function calcWorkDone(Force: number, Distance: number):  number{
+    return Force*Distance ;
 }

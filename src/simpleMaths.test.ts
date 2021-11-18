@@ -1,4 +1,4 @@
-import { calcAreaSquare, calcAreaTriangle,calcAreaTrapezium, tan } from './simpleMaths'
+import { calcAreaSquare, calcAreaTriangle,calcAreaTrapezium,calcWorkDone } from './simpleMaths'
 
 test('Area Square', () => {
     expect(calcAreaSquare(4)).toBe(16);
@@ -11,8 +11,6 @@ test('Area Triangle', () => {
 test('Area Trapezium', ()=>{
     expect(calcAreaTrapezium(10, 30, 5)).toBe(100)
 })
-
-test('Tangent',()=>{
-    expect(tan(45)).toBe(1)
-
+test('Work Done', ()=> {
+    expect(calcWorkDone(500,10)).toBe(5000)
 })
